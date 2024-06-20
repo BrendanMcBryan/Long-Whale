@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Long Whale functions and definitions
  *
@@ -12,20 +13,21 @@
  * Register block styles.
  */
 
-if ( ! function_exists( 'long_whale_block_styles' ) ) :
+if (!function_exists('long_whale_block_styles')) :
 	/**
 	 * Register custom block styles
 	 *
 	 * @since Long Whale 1.0
 	 * @return void
 	 */
-	function long_whale_block_styles() {
+	function long_whale_block_styles()
+	{
 
 		register_block_style(
 			'core/details',
 			array(
 				'name'         => 'arrow-icon-details',
-				'label'        => __( 'Arrow icon', 'long-whale' ),
+				'label'        => __('Arrow icon', 'long-whale'),
 				/*
 				 * Styles for the custom Arrow icon style of the Details block
 				 */
@@ -48,7 +50,7 @@ if ( ! function_exists( 'long_whale_block_styles' ) ) :
 			'core/post-terms',
 			array(
 				'name'         => 'pill',
-				'label'        => __( 'Pill', 'long-whale' ),
+				'label'        => __('Pill', 'long-whale'),
 				/*
 				 * Styles variation for post terms
 				 * https://github.com/WordPress/gutenberg/issues/24956
@@ -71,7 +73,7 @@ if ( ! function_exists( 'long_whale_block_styles' ) ) :
 			'core/list',
 			array(
 				'name'         => 'checkmark-list',
-				'label'        => __( 'Checkmark', 'long-whale' ),
+				'label'        => __('Checkmark', 'long-whale'),
 				/*
 				 * Styles for the custom checkmark list block style
 				 * https://github.com/WordPress/gutenberg/issues/51480
@@ -90,7 +92,7 @@ if ( ! function_exists( 'long_whale_block_styles' ) ) :
 			'core/navigation-link',
 			array(
 				'name'         => 'arrow-link',
-				'label'        => __( 'With arrow', 'long-whale' ),
+				'label'        => __('With arrow', 'long-whale'),
 				/*
 				 * Styles for the custom arrow nav link block style
 				 */
@@ -108,7 +110,7 @@ if ( ! function_exists( 'long_whale_block_styles' ) ) :
 			'core/heading',
 			array(
 				'name'         => 'asterisk',
-				'label'        => __( 'With asterisk', 'long-whale' ),
+				'label'        => __('With asterisk', 'long-whale'),
 				'inline_style' => "
 				.is-style-asterisk:before {
 					content: '';
@@ -144,20 +146,21 @@ if ( ! function_exists( 'long_whale_block_styles' ) ) :
 	}
 endif;
 
-add_action( 'init', 'long_whale_block_styles' );
+add_action('init', 'long_whale_block_styles');
 
 /**
  * Enqueue block stylesheets.
  */
 
-if ( ! function_exists( 'long_whale_block_stylesheets' ) ) :
+if (!function_exists('long_whale_block_stylesheets')) :
 	/**
 	 * Enqueue custom block stylesheets
 	 *
 	 * @since Long Whale 1.0
 	 * @return void
 	 */
-	function long_whale_block_stylesheets() {
+	function long_whale_block_stylesheets()
+	{
 		/**
 		 * The wp_enqueue_block_style() function allows us to enqueue a stylesheet
 		 * for a specific block. These will only get loaded when the block is rendered
@@ -170,37 +173,38 @@ if ( ! function_exists( 'long_whale_block_stylesheets' ) ) :
 			'core/button',
 			array(
 				'handle' => 'long-whale-button-style-outline',
-				'src'    => get_parent_theme_file_uri( 'assets/css/button-outline.css' ),
-				'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-				'path'   => get_parent_theme_file_path( 'assets/css/button-outline.css' ),
+				'src'    => get_parent_theme_file_uri('assets/css/button-outline.css'),
+				'ver'    => wp_get_theme(get_template())->get('Version'),
+				'path'   => get_parent_theme_file_path('assets/css/button-outline.css'),
 			)
 		);
 	}
 endif;
 
-add_action( 'init', 'long_whale_block_stylesheets' );
+add_action('init', 'long_whale_block_stylesheets');
 
 /**
  * Register pattern categories.
  */
 
-if ( ! function_exists( 'long_whale_pattern_categories' ) ) :
+if (!function_exists('long_whale_pattern_categories')) :
 	/**
 	 * Register pattern categories
 	 *
 	 * @since Long Whale 1.0
 	 * @return void
 	 */
-	function long_whale_pattern_categories() {
+	function long_whale_pattern_categories()
+	{
 
 		register_block_pattern_category(
 			'long_whale_page',
 			array(
-				'label'       => _x( 'Pages', 'Block pattern category', 'long-whale' ),
-				'description' => __( 'A collection of full page layouts.', 'long-whale' ),
+				'label'       => _x('Pages', 'Block pattern category', 'long-whale'),
+				'description' => __('A collection of full page layouts.', 'long-whale'),
 			)
 		);
 	}
 endif;
 
-add_action( 'init', 'long_whale_pattern_categories' );
+add_action('init', 'long_whale_pattern_categories');
