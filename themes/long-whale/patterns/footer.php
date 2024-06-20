@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Title: Footer with colophon, 4 columns
  * Slug: long-whale/footer
@@ -8,7 +9,7 @@
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">HELLO FOOTER
 	<!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"width":"30%"} -->
@@ -37,17 +38,17 @@
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'About', 'long-whale' ); ?></h2>
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('About', 'long-whale'); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
 
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'About', 'long-whale' ); ?>"} -->
+						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e('About', 'long-whale'); ?>"} -->
 
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Team', 'long-whale' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'History', 'long-whale' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'long-whale' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('Team', 'long-whale'); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('History', 'long-whale'); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('Careers', 'long-whale'); ?>","url":"#"} /-->
 
 						<!-- /wp:navigation -->
 
@@ -60,17 +61,17 @@
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Privacy', 'long-whale' ); ?></h2>
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('Privacy', 'long-whale'); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
 
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Privacy', 'long-whale' ); ?>"} -->
+						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e('Privacy', 'long-whale'); ?>"} -->
 
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'long-whale' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms and Conditions', 'long-whale' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'long-whale' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('Privacy Policy', 'long-whale'); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('Terms and Conditions', 'long-whale'); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('Contact Us', 'long-whale'); ?>","url":"#"} /-->
 
 						<!-- /wp:navigation -->
 
@@ -82,17 +83,17 @@
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Social', 'long-whale' ); ?></h2>
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e('Social', 'long-whale'); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
 
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Social Media', 'long-whale' ); ?>"} -->
+						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e('Social Media', 'long-whale'); ?>"} -->
 
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'long-whale' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'long-whale' ); ?>","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Twitter/X', 'long-whale' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('Facebook', 'long-whale'); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('Instagram', 'long-whale'); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e('Twitter/X', 'long-whale'); ?>","url":"#"} /-->
 
 						<!-- /wp:navigation -->
 
@@ -111,12 +112,12 @@
 	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0">
 		<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast-2","fontSize":"small"} -->
 		<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size">
-		<?php
+			<?php
 			/* Translators: WordPress link. */
-			$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'long-whale' ) ) . '" rel="nofollow">WordPress</a>';
+			$wordpress_link = '<a href="' . esc_url(__('https://wordpress.org', 'long-whale')) . '" rel="nofollow">WordPress</a>';
 			echo sprintf(
 				/* Translators: Designed with WordPress */
-				esc_html__( 'Designed with %1$s', 'long-whale' ),
+				esc_html__('Designed with %1$s', 'long-whale'),
 				$wordpress_link
 			);
 			?>
