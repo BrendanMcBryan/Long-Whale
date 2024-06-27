@@ -13,6 +13,7 @@
  * Register block styles.
  */
 
+
 if (!function_exists('long_whale_block_styles')) :
 	/**
 	 * Register custom block styles
