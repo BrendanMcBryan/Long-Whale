@@ -1,0 +1,41 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/artworkarchive/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.artwork__frame {
+  padding-bottom: 2em;
+}
+.artwork__frame .artwork__title {
+  margin-top: 1em;
+}
+.artwork__frame .artwork__title a {
+  color: #262726;
+  text-decoration: none;
+}
+
+.grid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item {
+  width: 32%;
+}
+
+/* 2 columns wide */
+.grid-item--width2 {
+  width: 66%;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

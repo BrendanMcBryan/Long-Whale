@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "longwhaleblocks/masongallery",
+  "version": "2.5.0",
+  "title": "Long Whale Masonry Gallery ",
+  "category": "media",
+  "icon": "layout",
+  "description": "Create a Masonry Image gallery with Gutenberg block",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "longwhaleblocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:/frontend.js"
+}

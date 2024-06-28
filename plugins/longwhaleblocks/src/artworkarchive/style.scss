@@ -1,0 +1,50 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.artwork__container {
+	// background-color: red;
+}
+
+.artwork__frame {
+	// background-color: #21759b;
+	padding-bottom: 2em;
+
+	img {
+		// width: 200px !important;
+		// box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+	}
+
+	.artwork__title {
+		margin-top: 1em;
+		a {
+			color: #262726;
+			text-decoration: none;
+		}
+	}
+}
+
+.grid {
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item {
+	width: 32%;
+	// padding: 9px;
+}
+/* 2 columns wide */
+.grid-item--width2 {
+	width: 66%;
+}
+
+.grid-item {
+	img {
+		width: 100%;
+	}
+}
