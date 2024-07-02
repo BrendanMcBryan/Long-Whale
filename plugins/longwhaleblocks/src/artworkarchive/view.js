@@ -28,7 +28,7 @@ console.log("Hello World! (from longwhaleblocks-longwhaleblocks block)");
 /* eslint-enable no-console */
 
 var elem = document.querySelector(".grid");
-console.log(elem);
+// console.log(elem);
 var msnry = new Masonry(elem, {
 	// options
 	itemSelector: ".grid-item",

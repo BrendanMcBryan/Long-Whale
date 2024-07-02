@@ -1,1 +1,58 @@
-.artwork__frame{padding-bottom:2em}.artwork__frame .artwork__title{margin-top:1em}.artwork__frame .artwork__title a{color:#262726;text-decoration:none}.grid{margin:auto;max-width:1200px}.grid-item,.grid-sizer{width:32%}.grid-item--width2{width:66%}.grid-item img{width:100%}
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/artworkarchive/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.artwork__frame {
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem;
+}
+.artwork__frame:hover {
+  background-color: white;
+}
+.artwork__frame img {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-bottom: 12px;
+}
+.artwork__frame__info {
+  padding: 0 12px;
+}
+.artwork__frame .artwork__title {
+  margin-top: 1em;
+}
+.artwork__frame .artwork__title a {
+  color: #262726;
+  text-decoration: none;
+}
+
+.grid {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item {
+  width: calc(33.833333% - 2rem);
+  margin-bottom: 0.65rem;
+}
+
+/* 2 columns */
+.grid-item--width2 {
+  width: 40%;
+}
+
+.grid-item img {
+  width: 100%;
+}
+.grid-item h5,
+.grid-item h6 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}

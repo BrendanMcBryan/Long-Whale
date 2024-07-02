@@ -31,5 +31,8 @@ function longwhaleblocks_longwhaleblocks_block_init()
 	register_block_type(__DIR__ . '/build/secondblock');
 	register_block_type(__DIR__ . '/build/header');
 	register_block_type(__DIR__ . '/build/artworkarchive');
+	register_block_type(__DIR__ . '/build/taxonomylisting');
+	register_block_type(__DIR__ . '/build/slideshow');
+	register_block_type(__DIR__ . '/build/slide');
 }
 add_action('init', 'longwhaleblocks_longwhaleblocks_block_init');

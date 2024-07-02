@@ -18,6 +18,7 @@
 		"@wordpress/scripts": "^27.9.0"
 	},
 	"dependencies": {
+		"@glidejs/glide": "^3.6.1",
 		"imagesloaded": "^5.0.0",
 		"masonry-layout": "^4.2.2"
 	}

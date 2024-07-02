@@ -209,3 +209,12 @@ if (!function_exists('long_whale_pattern_categories')) :
 endif;
 
 add_action('init', 'long_whale_pattern_categories');
+
+
+function longwhale_files()
+{
+	wp_enqueue_style('longwhale_main_styles', get_theme_file_uri('/build/style-index.css'));
+	wp_enqueue_style('longwhale_extra_styles', get_theme_file_uri('/build/index.css'));
+}
+
+add_action('wp_enqueue_scripts', 'longwhale_files');
