@@ -71,3 +71,41 @@
 .glide--rtl {
   direction: ltr;
 }
+
+#homeSlide {
+  height: 100vh !important;
+  padding: 25vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.glide__track {
+  flex-grow: 1;
+}
+
+li.glide__slide {
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transition: all 10s;
+}
+li.glide__slide--active {
+  background-position: bottom left;
+}
+li.glide__slide--active img {
+  scale: 1;
+}
+li.glide__slide img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+
+.slider__arrow {
+  margin: auto;
+  border: none;
+  color: white !important;
+  background-color: transparent;
+}

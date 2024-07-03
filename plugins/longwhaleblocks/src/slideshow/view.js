@@ -22,10 +22,20 @@
 
 import Glide from "@glidejs/glide";
 
-var glide = new Glide(".glide", {
+var nextButton = document.querySelector("#next");
+var prevButton = document.querySelector("#prev");
+
+var glide = new Glide("#homeSlide", {
 	type: "carousel",
 	perView: 4,
 	focusAt: "center",
+	startAt: 1,
+	autoplay: 1,
+
+	animationDuration: 8000,
+	animationTimingFunc: "linear",
+	rewind: true,
+	rewindDuration: 5 * 1000,
 	breakpoints: {
 		800: {
 			perView: 2,
@@ -34,6 +44,18 @@ var glide = new Glide(".glide", {
 			perView: 1,
 		},
 	},
+});
+
+nextButton.addEventListener("click", function (event) {
+	event.preventDefault();
+
+	glide.go(">");
+});
+
+prevButton.addEventListener("click", function (event) {
+	event.preventDefault();
+
+	glide.go("<");
 });
 
 glide.mount();

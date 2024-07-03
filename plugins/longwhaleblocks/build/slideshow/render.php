@@ -1,9 +1,45 @@
-<div class="glide">
+<div class="glide" id="homeSlide">
+	<button id="prev" class="glide__arrow slider__arrow glide__arrow--left" data-glide-dir="&lt;">&#8880;</button>
+
 	<div class="glide__track" data-glide-el="track">
+
 		<ul class="glide__slides">
-			<li class="glide__slide">0</li>
-			<li class="glide__slide">1</li>
-			<li class="glide__slide">2</li>
+
+
+
+
+			<?php
+			$artwork = new WP_Query(array(
+				'post_type' => 'artwork',
+				'order' => 'ASC',
+
+			));
+
+
+			while ($artwork->have_posts()) {
+				$artwork->the_post();
+			?>
+
+
+				<li class="glide__slide" style="background-image: url(<?php echo get_field('hero_image') ?>);">
+
+				</li>
+			<?php
+			}
+
+			?>
+
 		</ul>
 	</div>
+	<button id="next" class="slider__arrow slider__arrow--next glide__arrow glide__arrow--next" data-glide-dir="&gt;">
+		&#8881;
+
+	</button>
+
+
 </div>
+<!-- <div class="glide__arrows" data-glide-el="controls">
+	<button class="glide__arrow glide__arrow--left" data-glide-dir="&lt;">prev</button>
+	<button class="glide__arrow glide__arrow--right" data-glide-dir="&gt;">next</button>
+	
+</div> -->

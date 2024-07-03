@@ -5,3 +5,46 @@
  * Replace them with your own styles or remove the file completely.
  */
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+#homeSlide {
+	height: 100vh !important;
+	padding: 25vh;
+	overflow: hidden;
+	display: flex;
+}
+
+.glide__track {
+	flex-grow: 1;
+}
+li.glide__slide {
+	height: 50vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	overflow: hidden;
+	transition: all 10s;
+
+	&--active {
+		// border: solid 3px red;
+		background-position: bottom right;
+		// background-size: contain;
+
+		img {
+			scale: 1;
+		}
+	}
+
+	img {
+		object-fit: contain;
+		// scale: 1.5;
+		width: 100%;
+	}
+}
+
+.slider__arrow {
+	margin: auto;
+	border: none;
+	color: white !important;
+	background-color: transparent;
+}
