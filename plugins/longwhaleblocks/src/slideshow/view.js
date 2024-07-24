@@ -27,7 +27,7 @@ var prevButton = document.querySelector("#prev");
 
 var glide = new Glide("#homeSlide", {
 	type: "carousel",
-	perView: 4,
+	perView: 5,
 	focusAt: "center",
 	startAt: 1,
 	autoplay: 1,

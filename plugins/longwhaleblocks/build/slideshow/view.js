@@ -4083,7 +4083,7 @@ var nextButton = document.querySelector("#next");
 var prevButton = document.querySelector("#prev");
 var glide = new _glidejs_glide__WEBPACK_IMPORTED_MODULE_0__["default"]("#homeSlide", {
   type: "carousel",
-  perView: 4,
+  perView: 5,
   focusAt: "center",
   startAt: 1,
   autoplay: 1,

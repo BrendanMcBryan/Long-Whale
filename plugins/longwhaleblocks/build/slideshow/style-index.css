@@ -74,7 +74,7 @@
 
 #homeSlide {
   height: 100vh !important;
-  padding: 25vh;
+  padding: 15vh 10%;
   overflow: hidden;
   display: flex;
 }
@@ -84,7 +84,7 @@
 }
 
 li.glide__slide {
-  height: 50vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -102,12 +102,40 @@ li.glide__slide img {
      object-fit: contain;
   width: 100%;
 }
+li.glide__slide a {
+  margin: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
 .slider__arrow {
   margin: auto;
   border: none;
   color: white !important;
   background-color: transparent;
+}
+
+test {
+  background: linear-gradient(-45deg, #120501, #161415, #252627, #01100c);
+}
+
+.motion_bg {
+  background: linear-gradient(-67.8deg, #120501, #161415, #252627, #01100c);
+  background-size: 120% 120%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /*# sourceMappingURL=style-index.css.map*/
