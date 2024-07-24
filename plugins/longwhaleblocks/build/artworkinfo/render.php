@@ -15,7 +15,7 @@
 
 				foreach ($types as $type) {
 				?>
-					<h3><?php print_r($type) ?></h3> <?php } ?>
+					<div class="artworkInfo__types__type"><a href=""><?php print_r($type->name) ?></a></div> <?php } ?>
 			</div>
 		<?php } ?>
 		<?php

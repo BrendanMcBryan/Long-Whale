@@ -37,6 +37,9 @@
   justify-content: center;
   align-items: center;
 }
+.artworkInfo__types__type {
+  padding: 18px;
+}
 .artworkInfo__materials {
   color: gray;
   font-style: italic;
