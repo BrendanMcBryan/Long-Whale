@@ -3,7 +3,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-i18n/
  */
-import { __ } from '@wordpress/i18n';
+import { __ } from "@wordpress/i18n";
 
 /**
  * React hook that is used to mark the block wrapper element.
@@ -11,7 +11,7 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps } from "@wordpress/block-editor";
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -19,7 +19,7 @@ import { useBlockProps } from '@wordpress/block-editor';
  *
  * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
  */
-import './editor.scss';
+import "./editor.scss";
 
 /**
  * The edit function describes the structure of your block in the context of the
@@ -31,11 +31,14 @@ import './editor.scss';
  */
 export default function Edit() {
 	return (
-		<p { ...useBlockProps() }>
-			{ __(
-				'Longwhaleblocks – hello from the editor!',
-				'longwhaleblocks'
-			) }
-		</p>
+		<div {...useBlockProps()}>
+			<div class="longwhale-placeholder-block">
+				<h1>piece_title</h1>
+				<h2>subtitle</h2>
+				<h3>
+					<span>length</span>" wide &times; <span>width</span>"tall
+				</h3>
+			</div>
+		</div>
 	);
 }

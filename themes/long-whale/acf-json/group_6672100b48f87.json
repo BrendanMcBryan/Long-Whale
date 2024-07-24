@@ -67,7 +67,7 @@
             "add_term": 1,
             "save_terms": 1,
             "load_terms": 1,
-            "return_format": "id",
+            "return_format": "object",
             "field_type": "multi_select",
             "allow_null": 1,
             "bidirectional": 0,
@@ -346,5 +346,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 1,
-    "modified": 1721844175
+    "modified": 1721850896
 }

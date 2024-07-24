@@ -1,0 +1,43 @@
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/artworkinfo/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-longwhaleblocks-longwhaleblocks {
+  color: #fff;
+  padding: 2px;
+}
+
+.artworkInfo {
+  background-color: red;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+.artworkInfo h1 {
+  margin-bottom: 0.5rem;
+}
+.artworkInfo h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+.artworkInfo p {
+  margin-bottom: 0;
+  font-size: 0.95em;
+  opacity: 0.8;
+}
+.artworkInfo__types {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.artworkInfo__materials {
+  color: gray;
+  font-style: italic;
+}

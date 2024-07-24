@@ -1,0 +1,45 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-longwhaleblocks-longwhaleblocks {
+	color: #fff;
+	padding: 2px;
+}
+
+.artworkInfo {
+	background-color: red;
+	// min-height: 30vh;
+	width: 80%;
+	max-width: 800px;
+	margin: auto;
+	h1 {
+		margin-bottom: 0.5rem;
+	}
+	h2 {
+		margin-top: 0;
+		font-size: 1.5em;
+	}
+
+	p {
+		// margin-top: 0;
+		margin-bottom: 0;
+		font-size: 0.95em;
+		opacity: 0.8;
+	}
+
+	&__types {
+		background-color: aqua;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	&__materials {
+		color: gray;
+		font-style: italic;
+	}
+}

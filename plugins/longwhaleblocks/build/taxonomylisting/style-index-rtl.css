@@ -1,1 +1,33 @@
-.taxonomy__listing{display:flex;justify-content:center}.taxonomy__frame{background-color:hsla(0,0%,100%,0);border-radius:3px;margin-inline-end:9px;padding:9px 9px 3px}.taxonomy__frame a{text-decoration:none}.taxonomy__frame:hover{background:linear-gradient(-180deg,hsla(0,0%,100%,0) 75%,hsla(0,0%,100%,.25))}.taxonomy__frame--title{color:#fff!important;font-size:1.5em;font-weight:100;margin:0 3px}
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/taxonomylisting/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.taxonomy__listing {
+  display: flex;
+  justify-content: center;
+}
+
+.taxonomy__frame {
+  padding: 9px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  padding: 9px 9px 3px;
+  margin-inline-end: 9px;
+}
+.taxonomy__frame a {
+  text-decoration: none;
+}
+.taxonomy__frame:hover {
+  background: linear-gradient(-180deg, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.25) 100%);
+}
+.taxonomy__frame--title {
+  color: white !important;
+  font-size: 1.5em;
+  font-weight: 100;
+  margin: 0 3px;
+}
