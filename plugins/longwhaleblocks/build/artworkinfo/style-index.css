@@ -13,36 +13,40 @@
 }
 
 .artworkInfo {
-  background-color: red;
   width: 80%;
   max-width: 800px;
   margin: auto;
-}
-.artworkInfo h1 {
-  margin-bottom: 0.5rem;
-}
-.artworkInfo h2 {
-  margin-top: 0;
-  font-size: 1.5em;
 }
 .artworkInfo p {
   margin-bottom: 0;
   font-size: 0.95em;
   opacity: 0.8;
 }
+.artworkInfo__title {
+  margin-bottom: 0.5rem;
+}
+.artworkInfo__subtitle {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5em;
+}
+.artworkInfo__materials {
+  color: gray;
+}
+.artworkInfo__date {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1em;
+}
 .artworkInfo__types {
-  background-color: aqua;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .artworkInfo__types__type {
   padding: 18px;
-}
-.artworkInfo__materials {
-  color: gray;
-  font-style: italic;
+  background-color: lightblue;
 }
 
 /*# sourceMappingURL=style-index.css.map*/

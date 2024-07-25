@@ -11,18 +11,11 @@
 }
 
 .artworkInfo {
-	background-color: red;
+	// background-color: red;
 	// min-height: 30vh;
 	width: 80%;
 	max-width: 800px;
 	margin: auto;
-	h1 {
-		margin-bottom: 0.5rem;
-	}
-	h2 {
-		margin-top: 0;
-		font-size: 1.5em;
-	}
 
 	p {
 		// margin-top: 0;
@@ -31,19 +24,37 @@
 		opacity: 0.8;
 	}
 
+	&__title {
+		margin-bottom: 0.5rem;
+	}
+	&__subtitle {
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+		font-size: 1.5em;
+	}
+	&__materials {
+		color: gray;
+		span {
+			// font-style: italic;
+		}
+	}
+	&__date {
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+		font-size: 1em;
+	}
+	&__related {
+	}
+
 	&__types {
-		background-color: aqua;
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: left;
 		align-items: center;
 
 		&__type {
 			padding: 18px;
+			background-color: lightblue;
 		}
-	}
-	&__materials {
-		color: gray;
-		font-style: italic;
 	}
 }
